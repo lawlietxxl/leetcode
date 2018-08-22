@@ -6,7 +6,7 @@
 // 左括号必须以正确的顺序闭合。
 // 注意空字符串可被认为是有效字符串。
 
-//这套最简单的解决方案结果是 44%
+//这套最简单的解决方案结果是 44%, 需要优化
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> sc = new Stack<>();
